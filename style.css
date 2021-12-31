@@ -144,31 +144,36 @@ h3 {
     padding: 2px;
     font-size: 14px;
     font-weight: 400;
-    width: 30px;
+    width: 20px;
     height: 18px;
     line-height: 18px;
 }
 
 .research_list .conference {
-    background-color: #0233d1;
+    background-color: Dodgerblue;
 }
 
 .research_list .journal {
-    background-color: #e6233d;
+    background-color: brown;
 }
 
 .research_list .bookchapter {
-    background-color: #ff8c00;
+    background-color: DarkCyan;
     
 }
 
 .research_list .thesis {
-    background-color: #ffd700;
+    background-color: DarkCyan;
     
 }
 
 .research_list .working {
-    background-color: #606b70;
+    background-color: SpringGreen;
+}
+
+
+.research_list .preprint {
+    background-color: LightSlateGrey;
 }
 
 .exp_list th {
@@ -182,8 +187,7 @@ h3 {
 .exp_list .green {
     font-weight: 300;
     padding: 10px;
-    color: white;
-    background-color: #41ab8d;
+    color: #41ab8d;
     height: 18px;
     line-height: 18px;
     margin-right: 10px;
@@ -195,8 +199,7 @@ h3 {
 .exp_list .gold {
     font-weight: 300;
     padding: 10px;
-    color: white;
-    background-color: #CD853F;
+    color: #CD853F;
     height: 18px;
     line-height: 18px;
     margin-right: 10px;
