@@ -133,7 +133,6 @@ h3 {
 
 .research_list ul li {
     margin-bottom: 20px;
-    max-width: 650px;
 }
 
 .research_list .content {
@@ -164,8 +163,8 @@ h3 {
     padding: 2px;
     font-size: 14px;
     font-weight: 400;
-    width: 22px;
-    height: 22px;
+    width: 1.5em;
+    height: 1.5em;
     line-height: 18px;
 }
 
