@@ -119,8 +119,7 @@
             <div class="research_list">
                 <ul>
 
-                  <li><table>
-			<tr>
+                  <li><table><tr>
                 <th class="tagcell">
                                 <div class="tag preprint"></div>
                             </th>
@@ -130,9 +129,13 @@
                     <a href="https://swatigupta.tech">Swati Gupta</a>,
                     <a href="https://sites.google.com/view/ssdcgaddq">Shengding Sun</a>,
                     <a href="https://tetali.github.io">Prasad Tetali</a>,
-                    <a href="https://people.math.gatech.edu/~mwigal3/">Michael C. Wigal</a>.
-                </br>
-				<a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/abs/2108.00914"> arXiv </a>
+                    <a href="https://people.math.gatech.edu/~mwigal3/">Michael C. Wigal</a>. </br>
+			  <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/abs/2108.00914"> arXiv </a>
+			  <a class="btn btn-outline-info btn-sm" data-toggle="collapse" href="#MLOP21summary" role="button" aria-expanded="false" aria-controls="MLOP21summary"> summary </a>
+			  <div class="collapse" id="MLOP21summary"> <div class="card card-body">
+				  <p>The minimum linear ordering problem (MLOP) seeks to minimize an aggregated cost f(\cdot) due to an ordering \sigma of the items (say [n]), i.e., \min_{\sigma} \sum_{i\in [n]} f(E_{i,\sigma}), where E_{i,\sigma} is the set of items that are mapped by \sigma to indices at most i. This problem has been studied in the literature for various special cases of the cost function f, and in a general setting for a submodular or supermodular cost f [ITT2012]. Though MLOP was known to be NP-hard for general submodular functions, it was unknown whether the special case of graphic matroid MLOP (with f being the matroid rank function of a graph) was polynomial-time solvable. Following this motivation, we explore related classes of linear ordering problems, including symmetric submodular MLOP, minimum latency vertex cover, and minimum sum vertex cover. We show that the most special cases of our problem, graphic matroid MLOP and minimum latency vertex cover, are both NP-hard.</p>
+				<p>We further expand the toolkit for approximating MLOP variants: using the theory of principal partitions, we show a 2-\frac{1+\ell_{f}}{1+|E|} approximation to monotone submodular MLOP, where \ell_{f}=\frac{f(E)}{\max_{x\in E}f(\{x\})} satisfies 1 \leq \ell_f \leq |E|. Thus our result improves upon the best known bound of 2-\frac{2}{1+|E|} by Iwata, Tetali, and Tripathi [ITT2012]. This leads to a 2-\frac{1+r(E)}{1+|E|} approximation for the matroid MLOP, corresponding to the case when r is the rank function of a given matroid. Finally, we show that MLVC can be 4/3 approximated, matching the integrality gap of its vanilla LP relaxation.</p>
+				  </div></div>
                 </th></tr> </table></li>
 			<li><table><tr>
                             <th class="tagcell">
